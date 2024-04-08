@@ -88,6 +88,7 @@ nav > a {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 14px;
 }
 
 nav > a:hover {
