@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 10</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+       @font-face {
+        font-family: 'Gill Sans';
+        src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+       }
+
+        body {
+            background-color: rgb(169, 228, 169);
+            margin: 0px;
+        }
+        body > header {
+            background-image: linear-gradient(to bottom, rgb(89, 192, 111), rgb(1, 88, 30));
+            padding: 20px 0px 0.5px 0px;
+            margin: -8px -8px 0px -8px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header > h1 {
+            color: whitesmoke;
+            text-align: center;
+            font-weight: bold;
+        }
+        p#assunto {
+            color: whitesmoke;
+            text-align: center;
+            font-size: small;
+        }
+        header > p > a {
+            text-decoration: none;
+            color: rgb(180, 247, 180);
+            padding: 12px;
+            margin-left: 10px;
+            font-size: small;
+            border-radius: 4px;
+        }
+
+        a:hover {
+            background-color: rgba(255, 255, 255, 0.24);
+            color: purple;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 0px 100px;
+        }
+
+        main > h1 {
+            font-family: 'Gill Sans'; 
+            color: rgb(1, 109, 1);
+        }
+
+        main > h2 {
+            font-family: 'Gill Sans'; 
+            color: rgb(1, 109, 1);
+            background-image: linear-gradient(to right, rgba(116, 214, 116, 0.473), white);
+            padding-left: 5px;
+        }
+        
+        main > p {
+            text-align: justify;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        footer {
+            background-color: darkgreen;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: smaller;
+            text-align: center;
+            margin-left: -10px;
+            margin-right: -10px;
+            padding: 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <P id="assunto">Tudo aquilo que você sempre quis saber sobre o mundo <br> tech, em um só lugar.</P>
+        <p><a href="#">Home</a> <a href="#">Notícias</a> <a href="#">Curiosidades</a> <a href="#">Fale Conosco</a></p>
+    </header>
+    <main>
+        <h1>História do mascote do android</h1>
+        <p>Provavalmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas talvez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre o robozinho.</p>
+
+        <h2>A primeira versão</h2>
+        <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão do robô. O objetivo era apenas personificar o sistema apenas para a sua equipe, não existia nenhuma solicitração da empresa para a criação de uk mascote.</p>
+        
+        <picture>
+            <source media="(max-width: 1030px)" srcset="pacote-projeto-d010/imagens/dan-droids-pq.png" type="image/png">
+            <img src="pacote-projeto-d010/imagens/dan-droids.png" alt="dan-droids">
+
+        </picture>
+
+        <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador, sendo chamadas de Dandroids</p>
+
+        <h2>Surge um novo mascote</h2>
+        <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+
+        <picture>
+            <source media="(max-width:725px)" srcset="pacote-projeto-d010/imagens/irina-blok-pq.jpg" type="image/jpg">
+            <img src="pacote-projeto-d010/imagens/irina-blok.jpg" alt="irina-blok">
+
+        </picture>
+        
+        <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gera identificação rápida por quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
+
+        <img src="pacote-projeto-d010/imagens/bugdroid.png" alt="Bugdroid">
+
+        <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que iolustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata, simplesm limpo e objetivo.</p>
+
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/l2UDgpLz20M" title="The next evolution of Android" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <aside>
+            <h1>Quer aprender mais?</h1>
+            <p>Outro assunto curioso em relação android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
+            <ul>
+                <p>1.5 - Cupcake</p>
+                <p>1.6 - Donut</p>
+                <p>2.0 - Eclair</p>
+                <p>2.2 - Froyo</p>
+                <p>2.3 - Gingerbread</p>
+                <p>3.0 - Honeycomb</p>
+                <p>4.0 - Ice Cream Sandwich</p>
+            </ul>
+        </aside>
+
+    </main>
+    <footer>
+        <p>Site criado por <strong>Gustavo Guanabara</strong> para o <strong>CursoemVideo</strong></p>
+    </footer>
+</body>
+</html>
